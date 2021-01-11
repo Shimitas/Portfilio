@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainPort {
+    background-image: url(img/desktop1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding: 100px;
+    min-height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+
+p {
+    font-family: 'Texturina', serif;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: black;
+}
+
+span {
+    text-shadow:
+        -1px 0 black,
+        0 1px black,
+        1px 0 #fce7e7,
+        0 -1px black;
+    font-family: 'Texturina', serif;
+    font-size: 60px;
+    color: white;
+    line-height: 0.7;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+}
+
+.navbar a {
+
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 15%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.navbar a.active {
+    background-color: #afa04c;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+.section1 {
+    display: inline-flexbox;
+    background-image: url(./shimi2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding: 100px;
+    min-height: 100vh;
+}
+.section2 {
+    display: flexbox;
+    background-image: url(./shimi3.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding: 100px;
+    min-height: 100vh;
+}
